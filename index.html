@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFG Prime - Automatyzacje i Audyty AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset i podstawowe style */
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family:'Montserrat', sans-serif; background:#0d0d0d; color:#fff; line-height:1.6;}
+        a {color:inherit; text-decoration:none;}
+        section {padding:80px 20px;}
+        h1,h2,h3 {margin-bottom:20px;}
+        h1 {font-size:3em; font-weight:700; color:#FFD700;}
+        h2 {font-size:2em; font-weight:700; color:#FFD700;}
+        p {max-width:700px; margin-bottom:20px;}
+        .container {max-width:1200px; margin:0 auto;}
+        .btn {display:inline-block; padding:12px 25px; border:2px solid #FFD700; border-radius:5px; color:#FFD700; font-weight:700; transition:0.3s;}
+        .btn:hover {background:#FFD700; color:#0d0d0d;}
+        /* Sekcje */
+        #hero {display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; text-align:center;}
+        #hero p {font-size:1.2em; color:#ccc; margin-bottom:30px;}
+        #services .service {margin-bottom:40px;}
+        #contact form {display:flex; flex-direction:column; max-width:500px;}
+        #contact input, #contact textarea {padding:12px; margin-bottom:15px; border-radius:5px; border:none;}
+        #contact button {padding:12px; border:none; border-radius:5px; background:#FFD700; color:#0d0d0d; font-weight:700; cursor:pointer; transition:0.3s;}
+        #contact button:hover {background:#fff;}
+        /* Footer */
+        footer {text-align:center; padding:30px 20px; color:#777; background:#0a0a0a;}
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>PFG Prime</h1>
+            <p>Automatyzacje i audyty AI dla nowoczesnych firm. Pomagamy zwiększać wydajność i oszczędzać czas dzięki inteligentnym rozwiązaniom.</p>
+            <a href="#contact" class="btn">Skontaktuj się</a>
+        </div>
+    </section>
+
+    <!-- O nas -->
+    <section id="about">
+        <div class="container">
+            <h2>O nas</h2>
+            <p>Jesteśmy zespołem specjalistów w zakresie sztucznej inteligencji i automatyzacji procesów. Naszym celem jest tworzenie rozwiązań, które realnie zwiększają efektywność i przewagę konkurencyjną firm.</p>
+        </div>
+    </section>
+
+    <!-- Usługi -->
+    <section id="services">
+        <div class="container">
+            <h2>Nasze usługi</h2>
+            <div class="service">
+                <h3>Audyt procesów biznesowych</h3>
+                <p>Analizujemy Twoje procesy i wskazujemy miejsca, gdzie AI i automatyzacja mogą przynieść największe oszczędności.</p>
+            </div>
+            <div class="service">
+                <h3>Automatyzacje AI</h3>
+                <p>Tworzymy inteligentne systemy automatyzujące powtarzalne zadania, raportowanie i obsługę klienta.</p>
+            </div>
+            <div class="service">
+                <h3>Wdrożenia i integracje</h3>
+                <p>Łączymy AI z Twoimi obecnymi systemami i dostosowujemy rozwiązania do Twojej firmy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dlaczego my -->
+    <section id="why">
+        <div class="container">
+            <h2>Dlaczego PFG Prime?</h2>
+            <p>- Profesjonalne i szybkie wdrożenia</p>
+            <p>- Bezpieczne i skalowalne rozwiązania</p>
+            <p>- Dedykowane podejście do każdej firmy</p>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form action="mailto:kontakt@pfgprime.pl" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Twoje imię" required>
+                <input type="email" name="email" placeholder="Twój e-mail" required>
+                <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+                <button type="submit">Wyślij wiadomość</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 PFG Prime. Wszelkie prawa zastrzeżone.
+    </footer>
+
+</body>
+</html>
