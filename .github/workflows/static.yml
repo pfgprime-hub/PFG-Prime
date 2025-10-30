@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFG Prime - Automatyzacje i Audyty AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset i podstawowe style */
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family:'Montserrat', sans-serif; background:#0d0d0d; color:#fff; line-height:1.6;}
+        a {color:inherit; text-decoration:none;}
+        section {padding:80px 20px;}
+        h1,h2,h3 {margin-bottom:20px;}
+        h1 {font-size:3em; font-weight:700; color:#FFD700;}
+        h2 {font-size:2em; font-weight:700; color:#FFD700;}
+        p {max-width:700px; margin-bottom:20px;}
+        .container {max-width:1200px; margin:0 auto;}
+        .btn {display:inline-block; padding:12px 25px; border:2px solid #FFD700; border-radius:5px; color:#FFD700; font-weight:700; transition:0.3s;}
+        .btn:hover {background:#FFD700; color:#0d0d0d;}
+        /* Sekcje */
+        #hero {display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; text-align:center;}
+        #hero p {font-size:1.2em; color:#ccc; margin-bottom:30px;}
+        #services .service {margin-bottom:40px;}
+        #contact form {display:flex; flex-direction:column; max-width:500px;}
+        #contact input, #contact textarea {padding:12px; margin-bottom:15px; border-radius:5px; border:none;}
+        #contact button {padding:12px; border:none; border-radius:5px; background:#FFD700; color:#0d0d0d; font-weight:700; cursor:pointer; transition:0.3s;}
+        #contact button:hover {background:#fff;}
+        /* Footer */
+        footer {text-align:center; padding:30px 20px; color:#777; background:#0a0a0a;}
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>PFG Prime</h1>
+            <p>Tworzymy inteligentne rozwiązania AI dla Twojej firmy.
+Automatyczne raporty, generatory ofert i umów, asystenci HR, marketing AI i audyty procesów – od analizy po wdrożenie i szkolenie zespołu.</p>
+            <a href="#contact" class="btn">Skontaktuj się</a>
+        </div>
+    </section>
+
+    <!-- O nas -->
+    <section id="about" style="background:#111; color:#fff; padding:100px 20px;">
+    <div class="container">
+        <h2 style="font-size:2.5em; color:#FFD700; margin-bottom:40px;">O nas</h2>
+
+        <!-- Misja -->
+        <div style="margin-bottom:60px;">
+            <h3 style="font-size:1.8em; margin-bottom:15px;">Nasza misja</h3>
+            <p style="font-size:1.1em; color:#ccc;">
+                W PFG Prime wspieramy firmy w pełnym wykorzystaniu potencjału sztucznej inteligencji. 
+                Naszym celem jest ułatwienie codziennej pracy poprzez inteligentne rozwiązania: automatyczne raporty, generatory ofert i umów, asystentów HR oraz automatyzację marketingu.
+            </p>
+        </div>
+
+        <!-- Kim jesteśmy -->
+        <div style="margin-bottom:60px;">
+            <h3 style="font-size:1.8em; margin-bottom:15px;">Kim jesteśmy</h3>
+            <p style="font-size:1.1em; color:#ccc;">
+                        PFG Prime to młody, dynamiczny zespół pasjonatów sztucznej inteligencji i nowoczesnych technologii dla biznesu. Naszym celem jest wspieranie firm w efektywnym wykorzystaniu AI, tak aby codzienne procesy stały się prostsze, szybsze i bardziej produktywne.
+    </p>
+    <p style="font-size:1.1em; color:#ccc;">
+        Choć działamy samodzielnie, łączymy wiedzę z zakresu automatyzacji, analityki danych i wdrażania inteligentnych narzędzi z praktycznym podejściem do biznesu. Dzięki temu nasze rozwiązania są nie tylko nowoczesne, ale przede wszystkim użyteczne i dostosowane do indywidualnych potrzeb każdej firmy.
+    </p>
+    <p style="font-size:1.1em; color:#ccc;">
+        Wierzymy, że innowacje nie muszą być skomplikowane. Tworzymy inteligentne systemy: generatory ofert i umów, raporty i analizy, asystentów HR oraz automatyzację marketingu, które naprawdę wspierają pracowników i menedżerów w codziennej pracy.
+    </p>
+    <p style="font-size:1.1em; color:#ccc;">
+        Nasza siła tkwi w elastyczności, szybkim wdrożeniu i indywidualnym podejściu do klienta. Każdy projekt traktujemy poważnie i dopasowujemy go do rzeczywistych potrzeb firmy – tak, aby AI stało się realnym wsparciem, a nie abstrakcyjnym narzędziem.
+    </p>
+</div>
+
+        <!-- Nasz proces -->
+        <div style="margin-bottom:60px;">
+            <h3 style="font-size:1.8em; margin-bottom:15px;">Jak pracujemy</h3>
+            <ul style="list-style:none; padding-left:0; color:#ccc; font-size:1.1em;">
+                <li>• <strong>Audyt procesów:</strong> Analizujemy Twoją firmę, aby wskazać miejsca, gdzie AI przyniesie największą wartość.</li>
+                <li>• <strong>Propozycja rozwiązań:</strong> Przygotowujemy indywidualne koncepcje automatyzacji i wdrożeń.</li>
+                <li>• <strong>Wdrożenie:</strong> Implementujemy inteligentne systemy AI dopasowane do potrzeb Twojej firmy.</li>
+                <li>• <strong>Szkolenie zespołu:</strong> Uczymy pracowników, jak korzystać z nowych narzędzi i automatyzacji.</li>
+            </ul>
+        </div>
+
+        <!-- Nasze wartości -->
+        <div style="margin-bottom:60px;">
+            <h3 style="font-size:1.8em; margin-bottom:15px;">Nasze wartości</h3>
+            <p style="font-size:1.1em; color:#ccc;">
+                Profesjonalizm, innowacja i indywidualne podejście do klienta. Każdy projekt traktujemy poważnie i dostosowujemy rozwiązania do rzeczywistych potrzeb firmy. 
+            </p>
+        </div>
+
+        <!-- Dlaczego wybrać nas -->
+        <div style="margin-bottom:60px;">
+            <h3 style="font-size:1.8em; margin-bottom:15px;">Dlaczego PFG Prime?</h3>
+            <ul style="list-style:none; padding-left:0; color:#ccc; font-size:1.1em;">
+                <li>• Elastyczne i dopasowane rozwiązania AI</li>
+                <li>• Szybkie wdrożenia bez komplikacji</li>
+                <li>• Jasny proces od audytu do szkolenia pracowników</li>
+                <li>• Profesjonalne wsparcie na każdym etapie</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Usługi -->
+    <section id="services">
+        <div class="container">
+            <h2>Nasze usługi</h2>
+            <div class="service">
+                <h3>Audyt procesów biznesowych</h3>
+                <p>Analizujemy Twoje procesy i wskazujemy miejsca, gdzie AI i automatyzacja mogą przynieść największe oszczędności.</p>
+            </div>
+            <div class="service">
+                <h3>Automatyzacje AI</h3>
+                <p>Tworzymy inteligentne systemy automatyzujące powtarzalne zadania, raportowanie i obsługę klienta.</p>
+            </div>
+            <div class="service">
+                <h3>Wdrożenia i integracje</h3>
+                <p>Łączymy AI z Twoimi obecnymi systemami i dostosowujemy rozwiązania do Twojej firmy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dlaczego my -->
+    <section id="why">
+        <div class="container">
+            <h2>Dlaczego PFG Prime?</h2>
+            <p>- Profesjonalne i szybkie wdrożenia</p>
+            <p>- Bezpieczne i skalowalne rozwiązania</p>
+            <p>- Dedykowane podejście do każdej firmy</p>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+<section id="contact">
+    <div class="container">
+        <h2>Kontakt</h2>
+        <!-- pfg.prime@gmail.com -->
+        <form action="https://formspree.io/f/TWOJ_EMAIL_LUB_LINK" method="POST">
+            <input type="text" name="name" placeholder="Twoje imię" required>
+            <input type="email" name="email" placeholder="Twój e-mail" required>
+            <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 PFG Prime. Wszelkie prawa zastrzeżone.
+    </footer>
+
+</body>
+</html>
